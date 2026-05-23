@@ -1,0 +1,22 @@
+2026-04-18 18:47:03,336 - utils.anythingllm_client - INFO - AnythingLLMClient 已初始化: http://localhost:3001, workspace: mykownledge
+2026-04-18 18:47:03,336 - utils.enhanced_recommend - INFO - AnythingLLM 客户端已初始化
+2026-04-18 18:47:03,420 - jieba - DEBUG - Building prefix dict from the default dictionary ...
+2026-04-18 18:47:03,421 - jieba - DEBUG - Loading model from cache C:\Users\田雨\AppData\Local\Temp\jieba.cache
+2026-04-18 18:47:03,864 - jieba - DEBUG - Loading model cost 0.444 seconds.
+2026-04-18 18:47:03,865 - jieba - DEBUG - Prefix dict has been built successfully.
+2026-04-18 18:47:03,894 - utils.rag_engine - INFO - 词汇表大小: 1945
+2026-04-18 18:47:03,896 - utils.rag_engine - INFO - RAG索引构建完成，共 26 本书，词汇量: 1945
+2026-04-18 18:47:03,898 - root - INFO - Index built, vocab size=1945
+2026-04-18 18:47:03,905 - root - INFO - Query '心理学': 0 results
+2026-04-18 18:47:03,912 - root - INFO - Query '编程': 2 results
+2026-04-18 18:47:03,913 - root - INFO -   'Python编程 ：从入门到实践(第3版)' score=100.00% reason=标题相关、内容相关（相似度 100%）
+2026-04-18 18:47:03,913 - root - INFO -   '鸿蒙之光HarmonyOS 6应用开发入门' score=3.90% reason=内容相关（相似度 4%）
+2026-04-18 18:47:03,921 - root - INFO - Query 'Python': 2 results
+2026-04-18 18:47:03,921 - root - INFO -   'Python编程 ：从入门到实践(第3版)' score=100.00% reason=标题相关、内容相关（相似度 100%）
+2026-04-18 18:47:03,921 - root - INFO -   '从零构建大模型' score=4.88% reason=内容相关（相似度 5%）
+2026-04-18 18:47:03,931 - root - INFO - Query '历史': 3 results
+2026-04-18 18:47:03,931 - root - INFO -   '中文计算机' score=5.62% reason=内容相关（相似度 6%）
+2026-04-18 18:47:03,931 - root - INFO -   '安妮日记' score=4.77% reason=标签相关（相似度 5%）
+2026-04-18 18:47:03,931 - root - INFO -   '从零开始学架构' score=4.60% reason=内容相关（相似度 5%）
+2026-04-18 18:47:03,939 - root - INFO - Query '余华': 1 results
+2026-04-18 18:47:03,939 - root - INFO -   '活着' score=95.00% reason=作者相关、内容相关（相似度 95%）

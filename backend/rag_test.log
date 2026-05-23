@@ -1,0 +1,35 @@
+2026-04-18 18:52:30,537 - AnythingLLMClient 已初始化: http://localhost:3001, workspace: mykownledge
+2026-04-18 18:52:30,537 - AnythingLLM 客户端已初始化
+2026-04-18 18:52:30,590 - User 1 has 26 books
+2026-04-18 18:52:30,590 - Book: 安妮日记 [其他]
+2026-04-18 18:52:30,590 - Book: 呼啸山 [form:novel, genre:tragedy, genre:gothic]
+2026-04-18 18:52:30,590 - Book: Bu hun ye ke yi [文学]
+2026-04-18 18:52:30,590 - Book: Alice's Adventures in Wonderland [Alice (fictitious character : carroll), fiction, British and irish fiction (fictional works by one author), Fiction, fantasy, general]
+2026-04-18 18:52:30,590 - Book: 浮生六记/纯美悦读 [其他]
+2026-04-18 18:52:30,590 - Book: 让我留在你身边 [文学]
+2026-04-18 18:52:30,590 - Book: 三体 [Hugo Award Winner, award:hugo_award=2015, award:hugo_award=novel]
+2026-04-18 18:52:30,590 - Book: 挪威的森林 [Student, Theaterwissenschaft, Liebesbeziehung]
+2026-04-18 18:52:30,590 - Book: 悲惨世界 [其他]
+2026-04-18 18:52:30,591 - Book: 云边有个小卖部 [文学]
+2026-04-18 18:52:30,635 - Building prefix dict from the default dictionary ...
+2026-04-18 18:52:30,636 - Loading model from cache C:\Users\田雨\AppData\Local\Temp\jieba.cache
+2026-04-18 18:52:31,085 - Loading model cost 0.450 seconds.
+2026-04-18 18:52:31,085 - Prefix dict has been built successfully.
+2026-04-18 18:52:31,119 - 词汇表大小: 1945
+2026-04-18 18:52:31,121 - RAG索引构建完成，共 26 本书，词汇量: 1945
+2026-04-18 18:52:31,121 - Index built, vocab size=1945
+2026-04-18 18:52:31,127 - Query '心理学': 0 results
+2026-04-18 18:52:31,136 - Query 'Python编程': 3 results
+2026-04-18 18:52:31,137 -   Match: Python编程 ：从入门到实践(第3版) score=100.00% reason=标题相关（相似度 100%）
+2026-04-18 18:52:31,137 -   Match: 从零构建大模型 score=3.45% reason=可能相关（相似度 3%）
+2026-04-18 18:52:31,137 -   Match: 鸿蒙之光HarmonyOS 6应用开发入门 score=2.76% reason=可能相关（相似度 3%）
+2026-04-18 18:52:31,146 - Query '历史': 3 results
+2026-04-18 18:52:31,146 -   Match: 中文计算机 score=5.62% reason=内容相关（相似度 6%）
+2026-04-18 18:52:31,146 -   Match: 安妮日记 score=4.77% reason=标签相关（相似度 5%）
+2026-04-18 18:52:31,146 -   Match: 从零开始学架构 score=4.60% reason=内容相关（相似度 5%）
+2026-04-18 18:52:31,153 - Query '余华': 1 results
+2026-04-18 18:52:31,153 -   Match: 活着 score=95.00% reason=作者相关、内容相关（相似度 95%）
+2026-04-18 18:52:31,162 - Query '编程入门': 3 results
+2026-04-18 18:52:31,162 -   Match: Python编程 ：从入门到实践(第3版) score=31.90% reason=内容相关（相似度 32%）
+2026-04-18 18:52:31,162 -   Match: 鸿蒙之光HarmonyOS 6应用开发入门 score=16.24% reason=可能相关（相似度 16%）
+2026-04-18 18:52:31,162 -   Match: 从零开始学架构 score=3.02% reason=可能相关（相似度 3%）
